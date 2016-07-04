@@ -1,0 +1,32 @@
+.navBar{
+    height: 50px;
+    background-color: black;
+}
+
+.board{
+    height: 1000px;
+    background-image: url("Images/PixarWallpaper.jpg");
+    background-size: cover;
+}
+.card{
+    height: 160px;
+    width: 160px;
+    background-image: url("Images/PixarBall.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin: 10px;
+    /*border: dotted 2px black;*/
+}
+
+.hide, .win-hide{
+    display: none;
+}
+
+.win{
+    height: 160px;
+    width: 160px;
+    background-image: url("Images/PixarBall.jpg");
+    /*background-size: cover;*/
+    display: inline-block;
+    margin: 20px;
+}
